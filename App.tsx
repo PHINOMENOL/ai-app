@@ -6,7 +6,7 @@ import { ImageDisplay } from './components/ImageDisplay';
 import { Controls } from './components/Controls';
 import { ProgressDisplay } from './components/ProgressDisplay';
 import { History, GeneratedImage } from './components/History';
-
+import ... from "./services/geminiService"
 // Utility to convert base64 data URL to a File object
 const dataURLtoFile = (dataurl: string, filename: string): File => {
     const arr = dataurl.split(',');
